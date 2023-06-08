@@ -1,0 +1,26 @@
+@media (max-width:800px) {
+
+    html,body{
+    }
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: small;
+}
+.carousel{
+    height: 35vh;
+}
+.slide img{
+    width: 90%;
+    height: 30vh;
+    margin-top: 2vh;
+}
+.game{
+    display: grid;
+    grid-template-columns: auto;
+}
+.card img{
+    width: 100%%;
+    height: 200px;
+}
+}

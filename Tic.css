@@ -1,0 +1,35 @@
+#board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 300px;
+  margin-bottom: 20px;
+  margin: auto;
+  margin-top: 5vh;
+  background-color: white;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+button {
+    height: 30px;
+  font-size: 20px;
+  display: flex;
+  margin: auto;
+  margin-top: 5vh;
+  background-color:red;
+  color: azure;
+  border: 0px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
